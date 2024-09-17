@@ -79,3 +79,11 @@
   122  git log --online > gitlog.txt
   123  git log --oneline > gitlog.txt
   124  history | grep git > history.txt
+  125  git add .
+  126  git commit -m "this is what I'm submitting"
+  127  git push
+  128  git switch features
+  129  git switch main
+  130  git merge features
+  131  git log --oneline > gitlog.txt
+  132  history | grep git > history.txt
