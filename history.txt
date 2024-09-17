@@ -1,0 +1,81 @@
+    1  git config --global user.name "Anna Fellars"
+    2  git config --global user.email anna@fellars.com
+    3  git config --global init.defaultBranch main
+    8  git config --list
+   11  git-practice-annafellars
+   12  cd git-practice-annafellars
+   13  git status
+   18  git status
+   19  git add file_1.txt file_2.txt
+   20  git commit -m "create new files"
+   21  git push
+   25  cd git-practice-annafellars
+   26  git add flie_1.txt file_2.txt
+   27  git add file_1.txt file_2.txt
+   28  git commit -m "create new files"
+   29  git push
+   31  git status file_1.txt
+   32  git add file_1.txt
+   33  git add file_2.txt
+   34  git commit -m "create new files"
+   35  git clone git@github.com:annafellars/stat386.git
+   36  git add file_1.txt file_2.txt
+   37  git commit -m "create new files"
+   38  git add file_1.txt file_2.txt
+   39  git commit -m "create new files"
+   40  git add stat386/
+   41  git status
+   44  git status
+   45  git add file_1.txt
+   46  git add .
+   47  git status
+   48  git status
+   49  git add file_1.txt
+   50  git commit -m "my first edit"
+   54  cd git-practice-annafellars
+   55  git status
+   56  git remote add orgin git@github.com:annafellars/gitpractice-annafell.git
+   57  git remote -v
+   58  git push -u origin main
+   59  git push -u main
+   60  git push -u 
+   61  git branch
+   62  git status
+   63  git remote set-url origin git@github.com:annafellars/gitpractice-annafell.git
+   64  git remote -v
+   65  git remote set-url orgin git@github.com:annafellars/gitpractice-annafell.git
+   66  git push -u orgin main
+   67  git push
+   68  git add .
+   69  git commit -m "first commit"
+   70  git push
+   74  cd git-practice-annafellars/
+   77  touch .gitignore
+   79  touch .gitignore.txt
+   82  git branch [features]
+   83  git branch ["features"]
+   85  git branch features
+   86  git switch features
+   88  git add new_features.txt
+   89  git commit -m "add empty file"
+   90  git switch main
+   92  git merge features
+   93  git log
+   98  git clone git@github.com:annafellars/git-practice-laurenscarzella.git
+   99  cd git-practice-laurenscarzella
+  100  git branch annafellars
+  102  git add new_file.txt
+  103  git commit -m "this is anna's edits"
+  104  git push origin feature-annafellars
+  105  git checkout feature-annafellars
+  106  git checkout -b feature-annafellars
+  108  git add new.txt
+  109  git add . 
+  110  git push origin feature-annafellars
+  111  git pull
+  118  cd git-practice-annafellars
+  120  git pull
+  121  git log
+  122  git log --online > gitlog.txt
+  123  git log --oneline > gitlog.txt
+  124  history | grep git > history.txt
